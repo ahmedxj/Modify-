@@ -344,6 +344,11 @@ ul{
     border-radius: 8px;
     height: 100px;
     margin-bottom: 10px;
+    transition: .5s ease;
+}
+.content .songs .box1 ul li img:hover{
+    transform: translate(0px,-5px) scale(1.1,1.1);
+    transition: .5s ease;
 }
 .content .songs .box1 .comp{
     margin: 20px;
@@ -404,6 +409,12 @@ ul{
     justify-content: space-between;
     margin-top: 15px;
     align-items: center;
+    transition: 0.2s;
+}
+.content .songs .box1 .comp .Top_Charts .play_s:hover{
+    transition: 0.2s;
+    background-color: #ffffff52;
+    border-radius: 10px;
 }
 .content .songs .box1 .comp .Top_Charts .play_s .p1 img{
     width: 60px;

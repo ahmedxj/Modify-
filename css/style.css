@@ -499,9 +499,11 @@ ul{
     width: 300px;
     background-color:#f85be8 ;
     -webkit-appearance: none;
-    height: 5px;
+    height: 10px;
     box-shadow: inset 1px -1px 3px black;
     border-radius: 5px;
+    position: relative;
+    overflow-y: hidden;
 }
 .slider::-webkit-slider-thumb{
     -webkit-appearance:none ;
@@ -515,12 +517,14 @@ ul{
 }
 input[type='range']::-webkit-slider-thumb{
     border: 2px solid black;
-    background: #7c3375;
+    background: #eb98e2;
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    z-index: 1111;
+    box-shadow: -407px 0 0 400px #7c3375 ;
 }
-/*--------------*/
+/*--------------*//
 
 .content .songs .box2 .music_cont{
     background-color: #f85be8;
